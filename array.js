@@ -4,9 +4,21 @@ const fruits = [
     "Banana" // banana 2
 ];
 
+const colors = [
+    "red",
+    "green",
+    "blue"
+];
 
-console.log(typeof fruits);
+const result = fruits + colors;
+
+console.log(typeof result);
+"Apple,Pear,Bananared,green,blue";
+
+
+/*console.log(typeof fruits);
 
 const firstValue = fruits[0];
 
-console.log(typeof firstValue);
+console.log(typeof firstValue);*/
+
